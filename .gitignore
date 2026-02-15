@@ -217,3 +217,5 @@ data/processed/*.csv
 # Ігнорувати системні файли Mac/Windows
 .DS_Store
 Thumbs.db
+
+notebooks/data/processed/*.csv
