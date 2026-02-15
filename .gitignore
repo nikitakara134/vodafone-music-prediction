@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ігнорувати самі дані (але не структуру папок)
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+
+# Ігнорувати файли налаштувань Jupyter
+.ipynb_checkpoints/
+
+# Ігнорувати системні файли Mac/Windows
+.DS_Store
+Thumbs.db
